@@ -1,11 +1,27 @@
-﻿<p id="Standard">
+﻿<p id="StandardDog">
 Give us some info to register you!
 </p>
 <form action="Result" method="post">
-    <p>Name</p><input name="Name" />
-    <p>Password</p><input name="Password" type="password" />
-    <p>Age</p><input name="Age" type="number" />
-    <p>Email</p><input name="Email" type="email" />
-    <br /> <br /> <br />
-    <input type="submit" />
+	<p>Name</p><input name="Name" />
+	<p>Password</p><input name="Password" type="password" />
+	<p>Age</p><input name="Age" type="number" min="10"max="103"/>
+	<p>Email</p><input name="Email" type="email" />
+	<br/><br/>Gender
+	<br />Male	<input checked="checked"
+						id="Gender"
+						name="Gender"
+						type="radio"
+						value="Male" />
+	Female<input checked="checked"
+				 id="Gender"
+				 name="Gender"
+				 type="radio"
+				 value="Female" />
+	<br/><br/>
+	<p>Last 9 digits of your Social Security Number</p><input name="Soc" type="password" />
+	<p>Mother's Maiden Name</p><input name="MMN" />
+	<p>4 Digits that you MAY or may not use for your pin</p><input name="Pin" type="number"min="0001"max="9999" />
+	
+	<br /> <br /> <br />
+	<input type="submit" />
 </form>

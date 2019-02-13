@@ -28,7 +28,7 @@ textarea {
     color: darkslategrey;
     text-align:center;
 }
-#Standard {
+#StandardDog {
     text-align:center;
    font-size: .3in;
 }
@@ -37,6 +37,11 @@ textarea {
     text-align:center;
     font-size: .9in;
     color: navy;
+}
+#ThreeDog {
 
-
+	background-image: url('../Images/Three_Dog.jpg');
+}
+#Awoo {
+	color:green;
 }
