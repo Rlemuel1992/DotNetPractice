@@ -142,7 +142,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\IToldYouDog.jpg" />
     <Content Include="Images\Three_Dog.jpg" />
+    <Content Include="Images\VeryGoodCoffee.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
@@ -172,6 +174,9 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Register.cshtml" />
     <Content Include="Views\Home\Result.cshtml" />
+    <Content Include="Views\Home\IWarnedYouDog.cshtml" />
+    <Content Include="Views\Home\YaDunGoofd.cshtml" />
+    <Content Include="Views\Home\CorrectHorse.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

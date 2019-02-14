@@ -1,11 +1,12 @@
-﻿<p id="StandardDog">
+﻿<link href="~/Content/Site.css" rel="stylesheet" />
+<p id="StandardDog">
 Give us some info to register you!
 </p>
 <form action="Result" method="post">
-	<p>Name</p><input name="Name" />
-	<p>Password</p><input name="Password" type="password" />
-	<p>Age</p><input name="Age" type="number" min="10"max="103"/>
-	<p>Email</p><input name="Email" type="email" />
+	<p>Name</p><input name="Name" required placeholder="pls gib name"/>
+	<p>Password</p><input name="Password" type="password" required placeholder="password kthx."/>
+	<p>Age</p><input name="Age" type="number" min="10"max="143" required/>
+	<p>Email</p><input name="Email" type="email" required placeholder="JimmyJohnsCookedMyDog@RipFido.Com" />
 	<br/><br/>Gender
 	<br />Male	<input checked="checked"
 						id="Gender"
@@ -18,10 +19,17 @@ Give us some info to register you!
 				 type="radio"
 				 value="Female" />
 	<br/><br/>
-	<p>Last 9 digits of your Social Security Number</p><input name="Soc" type="password" />
+	<p>Last 9 digits of your Social Security Number</p><input name="Soc" type="password" required placeholder="000-00-0000 no dash" />
 	<p>Mother's Maiden Name</p><input name="MMN" />
 	<p>4 Digits that you MAY or may not use for your pin</p><input name="Pin" type="number"min="0001"max="9999" />
-	
+															
+															<fieldset>
+																<legend>Just type some stuff</legend>
+																<p>Yeah: </p><input type="text"><br>
+																<p>Duck Sauce: </p><input type="text"><br>
+																<p>Aldskjagbkv asrhausisb akjsbdaf??: </p> <input type="text">
+															</fieldset>													
+															
 	<br /> <br /> <br />
 	<input type="submit" />
 </form>

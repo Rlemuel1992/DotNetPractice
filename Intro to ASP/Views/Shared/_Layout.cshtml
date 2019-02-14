@@ -16,15 +16,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink(":^)", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Register here", "Register", "Home")</li>
-                </ul>
+				<ul class="nav navbar-nav">
+					<li>@Html.ActionLink("<--- just press this button for home", "IWarnedYouDog", "Home")</li>
+					<li>@Html.ActionLink("About", "About", "Home")</li>
+					<li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+					<li>@Html.ActionLink("Register here", "Register", "Home")</li>
+					<li>@Html.ActionLink("YUoR CORREct", "CorrectHorse", "Home")</li>
+				</ul>
             </div>
         </div>
     </div>
@@ -32,7 +33,8 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Minute - Here's some minutes.</p>
+            <p>@DateTime.Now.Minute - Here's some minutes.</p>
+			<p>@DateTime.Now.AddYears(4000)</p>
         </footer>
     </div>
 
